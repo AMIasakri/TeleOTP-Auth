@@ -1,0 +1,119 @@
+2026-06-15 03:51:39,142 - main - INFO - [START] FastAPI application starting...
+2026-06-15 03:51:39,612 - main - INFO - [OK] Telegram HTTP Client initialized
+2026-06-15 03:51:39,613 - main - INFO - [OK] Telegram client initialized successfully
+2026-06-15 03:52:30,524 - main - INFO - [START] FastAPI application starting...
+2026-06-15 03:52:30,996 - main - INFO - [OK] Telegram HTTP Client initialized
+2026-06-15 03:52:30,997 - main - INFO - [OK] Telegram client initialized successfully
+2026-06-15 03:57:44,238 - main - INFO - [LOCK] Login attempt for email: test@mail.com
+2026-06-15 03:57:44,262 - main - INFO - OTP generated for test@mail.com: 998908
+2026-06-15 03:57:44,272 - main - INFO - OTP stored in DB for user 1, session: 8928eae78e4a4698...
+2026-06-15 03:57:44,273 - main - INFO - Telegram task added to background for user test@mail.com
+2026-06-15 03:57:44,273 - main - INFO - Telegram send attempt 1/3 for chat_id 7803649859
+2026-06-15 03:57:44,274 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-15 03:57:46,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot%D8%AA%D9%88%DA%A9%D9%86_%D9%88%D8%A7%D9%82%D8%B9%DB%8C_%D8%B1%D8%A8%D8%A7%D8%AA/sendMessage "HTTP/1.1 404 Not Found"
+2026-06-15 03:57:46,122 - main - INFO - Telegram response status: 404
+2026-06-15 03:57:46,122 - main - ERROR - [ERROR] Telegram HTTP error: 404 - {"ok":false,"error_code":404,"description":"Not Found"}
+2026-06-15 03:57:46,122 - main - WARNING - [WARN] Retry 1/3 failed. Waiting 1.0s...
+2026-06-15 03:57:47,125 - main - INFO - Telegram send attempt 2/3 for chat_id 7803649859
+2026-06-15 03:57:47,126 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-15 03:57:47,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot%D8%AA%D9%88%DA%A9%D9%86_%D9%88%D8%A7%D9%82%D8%B9%DB%8C_%D8%B1%D8%A8%D8%A7%D8%AA/sendMessage "HTTP/1.1 404 Not Found"
+2026-06-15 03:57:47,271 - main - INFO - Telegram response status: 404
+2026-06-15 03:57:47,271 - main - ERROR - [ERROR] Telegram HTTP error: 404 - {"ok":false,"error_code":404,"description":"Not Found"}
+2026-06-15 03:57:47,272 - main - WARNING - [WARN] Retry 2/3 failed. Waiting 2.0s...
+2026-06-15 03:57:49,272 - main - INFO - Telegram send attempt 3/3 for chat_id 7803649859
+2026-06-15 03:57:49,273 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-15 03:57:49,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot%D8%AA%D9%88%DA%A9%D9%86_%D9%88%D8%A7%D9%82%D8%B9%DB%8C_%D8%B1%D8%A8%D8%A7%D8%AA/sendMessage "HTTP/1.1 404 Not Found"
+2026-06-15 03:57:49,429 - main - INFO - Telegram response status: 404
+2026-06-15 03:57:49,429 - main - ERROR - [ERROR] Telegram HTTP error: 404 - {"ok":false,"error_code":404,"description":"Not Found"}
+2026-06-15 03:57:49,430 - main - ERROR - [ERROR] All 3 attempts failed for chat_id 7803649859. Last error: HTTP 404
+2026-06-17 02:51:28,044 - main - INFO - [START] FastAPI application starting...
+2026-06-17 02:51:28,592 - main - INFO - [OK] Telegram HTTP Client initialized
+2026-06-17 02:51:28,593 - main - INFO - [OK] Telegram client initialized successfully
+2026-06-17 02:51:58,088 - main - INFO - [LOCK] Login attempt for email: test@mail.com
+2026-06-17 02:51:58,131 - main - INFO - OTP generated for test@mail.com: 704120
+2026-06-17 02:51:58,142 - main - INFO - OTP stored in DB for user 1, session: fb30fa4e62381e83...
+2026-06-17 02:51:58,144 - main - INFO - Telegram task added to background for user test@mail.com
+2026-06-17 02:51:58,147 - main - INFO - Telegram send attempt 1/3 for chat_id 7803649859
+2026-06-17 02:51:58,158 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:51:58,744 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:51:58,745 - main - INFO - Telegram response status: 400
+2026-06-17 02:51:58,745 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:51:58,745 - main - WARNING - [WARN] Retry 1/3 failed. Waiting 1.0s...
+2026-06-17 02:51:59,748 - main - INFO - Telegram send attempt 2/3 for chat_id 7803649859
+2026-06-17 02:51:59,749 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:51:59,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:51:59,932 - main - INFO - Telegram response status: 400
+2026-06-17 02:51:59,933 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:51:59,933 - main - WARNING - [WARN] Retry 2/3 failed. Waiting 2.0s...
+2026-06-17 02:52:01,944 - main - INFO - Telegram send attempt 3/3 for chat_id 7803649859
+2026-06-17 02:52:01,945 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:52:02,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:52:02,111 - main - INFO - Telegram response status: 400
+2026-06-17 02:52:02,111 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:52:02,111 - main - ERROR - [ERROR] All 3 attempts failed for chat_id 7803649859. Last error: HTTP 400
+2026-06-17 02:52:47,976 - main - INFO - [LOCK] Login attempt for email: test@mail.com
+2026-06-17 02:52:47,978 - main - INFO - OTP generated for test@mail.com: 570217
+2026-06-17 02:52:47,981 - main - INFO - OTP stored in DB for user 1, session: c81373838c506ec0...
+2026-06-17 02:52:47,981 - main - INFO - Telegram task added to background for user test@mail.com
+2026-06-17 02:52:47,982 - main - INFO - Telegram send attempt 1/3 for chat_id 7803649859
+2026-06-17 02:52:47,982 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:52:48,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:52:48,534 - main - INFO - Telegram response status: 400
+2026-06-17 02:52:48,535 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:52:48,535 - main - WARNING - [WARN] Retry 1/3 failed. Waiting 1.0s...
+2026-06-17 02:52:49,547 - main - INFO - Telegram send attempt 2/3 for chat_id 7803649859
+2026-06-17 02:52:49,547 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:52:49,682 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:52:49,683 - main - INFO - Telegram response status: 400
+2026-06-17 02:52:49,683 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:52:49,683 - main - WARNING - [WARN] Retry 2/3 failed. Waiting 2.0s...
+2026-06-17 02:52:51,697 - main - INFO - Telegram send attempt 3/3 for chat_id 7803649859
+2026-06-17 02:52:51,698 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:52:51,842 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:52:51,843 - main - INFO - Telegram response status: 400
+2026-06-17 02:52:51,843 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:52:51,843 - main - ERROR - [ERROR] All 3 attempts failed for chat_id 7803649859. Last error: HTTP 400
+2026-06-17 02:53:03,279 - main - INFO - [LOCK] Login attempt for email: test@mail.com
+2026-06-17 02:53:03,282 - main - INFO - OTP generated for test@mail.com: 646391
+2026-06-17 02:53:03,291 - main - INFO - OTP stored in DB for user 1, session: a97b8337b72a930d...
+2026-06-17 02:53:03,291 - main - INFO - Telegram task added to background for user test@mail.com
+2026-06-17 02:53:03,292 - main - INFO - Telegram send attempt 1/3 for chat_id 7803649859
+2026-06-17 02:53:03,292 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:53:03,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:53:03,428 - main - INFO - Telegram response status: 400
+2026-06-17 02:53:03,429 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:53:03,429 - main - WARNING - [WARN] Retry 1/3 failed. Waiting 1.0s...
+2026-06-17 02:53:04,444 - main - INFO - Telegram send attempt 2/3 for chat_id 7803649859
+2026-06-17 02:53:04,446 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:53:04,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:53:04,602 - main - INFO - Telegram response status: 400
+2026-06-17 02:53:04,603 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:53:04,603 - main - WARNING - [WARN] Retry 2/3 failed. Waiting 2.0s...
+2026-06-17 02:53:06,615 - main - INFO - Telegram send attempt 3/3 for chat_id 7803649859
+2026-06-17 02:53:06,616 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:53:06,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:53:06,753 - main - INFO - Telegram response status: 400
+2026-06-17 02:53:06,753 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:53:06,753 - main - ERROR - [ERROR] All 3 attempts failed for chat_id 7803649859. Last error: HTTP 400
+2026-06-17 02:53:17,771 - main - INFO - [LOCK] Login attempt for email: test@mail.com
+2026-06-17 02:53:17,773 - main - INFO - OTP generated for test@mail.com: 259490
+2026-06-17 02:53:17,786 - main - INFO - OTP stored in DB for user 1, session: ec39cb8b8940014d...
+2026-06-17 02:53:17,787 - main - INFO - Telegram task added to background for user test@mail.com
+2026-06-17 02:53:17,789 - main - INFO - Telegram send attempt 1/3 for chat_id 7803649859
+2026-06-17 02:53:17,789 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:53:17,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:53:17,924 - main - INFO - Telegram response status: 400
+2026-06-17 02:53:17,924 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:53:17,925 - main - WARNING - [WARN] Retry 1/3 failed. Waiting 1.0s...
+2026-06-17 02:53:18,937 - main - INFO - Telegram send attempt 2/3 for chat_id 7803649859
+2026-06-17 02:53:18,937 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:53:19,104 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:53:19,105 - main - INFO - Telegram response status: 400
+2026-06-17 02:53:19,105 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:53:19,105 - main - WARNING - [WARN] Retry 2/3 failed. Waiting 2.0s...
+2026-06-17 02:53:21,106 - main - INFO - Telegram send attempt 3/3 for chat_id 7803649859
+2026-06-17 02:53:21,106 - main - INFO - [SEND] Sending Telegram message to chat_id: 7803649859
+2026-06-17 02:53:21,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8983099356:AAH36CA3Ux8fqhTNtLU2NhXXXNmCzNUNom0/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-17 02:53:21,241 - main - INFO - Telegram response status: 400
+2026-06-17 02:53:21,241 - main - ERROR - [ERROR] Telegram HTTP error: 400 - {"ok":false,"error_code":400,"description":"Bad Request: unsupported parse_mode"}
+2026-06-17 02:53:21,241 - main - ERROR - [ERROR] All 3 attempts failed for chat_id 7803649859. Last error: HTTP 400
