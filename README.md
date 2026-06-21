@@ -1,53 +1,57 @@
 # 🔐 TeleOTP-Auth
 
-A secure, open-source **OTP authentication system for Telegram bots**, built with Python.
+A professional, secure and open-source **OTP authentication system for Telegram bots**, built with Python.
 
 Developed by **Amir Asgari**.
 
 ---
 
-## 📌 Overview
+# 📌 English Description
 
-**TeleOTP-Auth** is a professional and lightweight OTP-based authentication system designed for Telegram bots and services that require user registration and identity verification.
+TeleOTP-Auth is a lightweight and secure OTP (One-Time Password) authentication system designed specifically for Telegram bots.
 
-It allows developers to easily integrate a **secure login and verification layer** into their bots using OTP (One-Time Password).
+It provides developers with an easy way to add **user registration and login verification** to their bots without building an authentication system from scratch.
 
-This project is fully **open-source**, and developers are welcome to improve and expand it.
-
----
-
-## 🚀 Features
-
-- OTP generation and verification system
-- Secure user authentication flow
-- Designed specifically for Telegram bots
-- Easy database integration
-- Lightweight and scalable architecture
-- Clean and modular Python code
-- Ready for production use in bot systems
-- Fully open-source and customizable
+This project is fully open-source and designed to be:
+- Secure
+- Scalable
+- Easy to integrate
+- Production-ready for Telegram bots
 
 ---
 
-## 🧠 Use Cases
+# 🚀 Features
 
-This system is perfect for:
-
-- Telegram bots with user registration
-- Private / premium access bots
-- User identity verification systems
-- Security layers for bot services
-- Any application requiring OTP-based login
+- OTP generation and verification system  
+- Secure user authentication flow  
+- Telegram bot integration ready  
+- Simple database support  
+- Clean and modular Python code  
+- Easy to customize and extend  
+- Lightweight and fast performance  
+- Fully open-source project  
 
 ---
 
-## ⚙️ Installation
+# 🧠 Use Cases
 
-### 1. Clone the repository
+- Telegram bots with user registration  
+- VIP / private bots with access control  
+- User identity verification systems  
+- Security layer for bot services  
+- Any system requiring OTP login  
 
+---
+
+# ⚙️ Installation
+
+## 1. Clone the repository
+```bash
+git clone https://github.com/USERNAME/TeleOTP-Auth.git
+cd TeleOTP-Auth
 2. Install dependencies
 pip install -r requirements.txt
-3. Configure environment
+3. Configuration
 
 Create a .env file or edit config.py and set:
 
@@ -72,13 +76,8 @@ Use it in your projects
 Modify and improve it
 Contribute to development
 
-But please keep original author credit.
+But please keep the original author credit.
 
 ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub.
-
-📜 License
-
-This project is released for educational and personal use.
-
